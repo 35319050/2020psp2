@@ -44,6 +44,21 @@ ave_onlineを定義
 square_ave_onlineを定義
 var_onlineを定義
 
+## 入出力結果
+
+```
+input the filename of sample:../sample/heights_male.csv
+the filename of sample: ../sample/heights_male.csv
+sample mean：
+sample variance：
+population mean (estimated)：
+population variance (estimated)：
+```
+
 ## 修正履歴
 
-説明は「かきくけこ」だ！
+[comment #20200429]
+
+- (k01.c#L09)と(k01.c#L11)のどちらにも`int N=0`があります．変数のスコープを考えて，どちらかを消してください．
+- `square_ave_online`という関数はわざわざ新しく作る必要はあるでしょうか？`ave_online`の引数の与え方を変えるだけで良くない？？
+- レポートに入出力結果を載せる項を追加しました．実際に動かしたときの入出力の様子をコピペして載せてください．
