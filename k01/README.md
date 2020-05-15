@@ -49,10 +49,10 @@ var_onlineを定義
 ```
 input the filename of sample:../sample/heights_male.csv
 the filename of sample: ../sample/heights_male.csv
-sample mean：
-sample variance：
-population mean (estimated)：
-population variance (estimated)：
+sample ave:173.888750
+sample var:146.473256
+estimated ave:173.888750
+estimated var:167.398007
 ```
 
 ## 修正履歴
