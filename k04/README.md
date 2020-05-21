@@ -23,8 +23,8 @@ Input the filename of sample ID : ../sample/IDs.csv
 Which ID's data do you want? : 45313125
 ---
 ID : 45313125
-gender : Male
-height : 167.83
+gender : Female
+height : 152.4
 ```
 
 例えば，ID 45313124のデータを調べたいとき，
