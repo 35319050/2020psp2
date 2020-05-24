@@ -12,6 +12,7 @@ int main(void)
     char buf[256];
     int N=0;
     FILE* fp;
+    
 
     printf("input the filename of sample:");
     fgets(fname,sizeof(fname),stdin);
@@ -27,8 +28,8 @@ int main(void)
     while(fgets(buf,sizeof(buf),fp) != NULL){
         sscanf(buf,"%lf",&val);
         N++;
-        ave = ave_online(val,ave,N);
         var = var_online(val,ave,square_ave,N);
+        ave = ave_online(val,ave,N);
         square_ave = ave_online(pow(val,2),square_ave,N);
     }
 
@@ -56,6 +57,6 @@ double ave_online(double val,double ave,int N){
 double var_online(double val,double ave,double square_ave,int N){
     
     double var;
-    var = (((N-1)*square_ave/N)+pow(val,2)/N)-pow((((N-1)*ave/N)+val/N),2);
+    var = (((N-1)*square_ave/N)+pow(val,2)/N)-pow((((N-1)*ave/N)+(val/N)),2);
     return var;
 }

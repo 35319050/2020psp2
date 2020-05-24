@@ -61,9 +61,9 @@ var_onlineを定義
 input the filename of sample:../sample/heights_male.csv
 the filename of sample: ../sample/heights_male.csv
 sample ave:173.888750
-sample var:146.473256
+sample var:25.361711
 estimated ave:173.888750
-estimated var:167.398007
+estimated var:28.984813
 ```
 
 ## 修正履歴
