@@ -78,3 +78,6 @@ estimated var:28.984813
 - 標本分散，母集団分散の値が間違っています．
   - var_onlineの引数のaveですが，whileループの中での呼び出しの直前で，aveは更新されています．var_onlineの関数の中で後半のpow((((N-1)*ave/N)+val/N),2)の1つ目の引数`(((N-1)*ave/N)+val/N)`は　ave_onlineの関数の `ave = (ave*(N-1)+val)/N;`とかぶっています．ということは，var_onlineのaveは更新する前のaveでないといけない．
 - 
+
+[comment #20200527]
+修正内容を確認しました。引き続き先生に提出をお願いします。
