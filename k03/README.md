@@ -72,6 +72,7 @@ int main(int argc, char* argv[])
 関数r_unift,r_stdnormを定義する
 ## 入出力結果
 
+```
 PS C:\Users\bb35319050\OneDrive - Nagasaki University\ドキュメント\GitHub\2020psp2\k03> gcc -o k03_b k03.c
 PS C:\Users\bb35319050\OneDrive - Nagasaki University\ドキュメント\GitHub\2020psp2\k03> ./k03 170.8 5.43 5
 ============================================
@@ -84,6 +85,7 @@ Num of dummy data: 5
 165.21
 177.55
 175.45
+```
 
 以下は例です． コンパイルするときに`-DCONST_SEED`をつけるとこうなります．
 
