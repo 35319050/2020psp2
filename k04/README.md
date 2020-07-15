@@ -11,9 +11,13 @@ aa83988848 薗田光太郎
 この二つのファイルを読み取り，学籍番号，身長，性別の3つをメンバーとする構造体の配列で管理するとよい．
 
 ## ソースコードの説明
-
+構造体を宣言。ファイルを入力する。調べたい学籍番号を入力する。ファイルの値を宣言した構造体に格納していく。調べたい学籍番号がファイル内にあれば、その他もろもろのデータを出力する。なければ、No Data
 
 ## 入出力結果
+Input the filename of sample height : ../sample/heights.csv
+Input the filename of sample ID : ../sample/IDs.csv
+Which ID's data do you want? : 45313125
+ここまでしか出力できていませんでした。
 
 例えば，ID 45313125のデータを調べたいとき，
 
